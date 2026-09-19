@@ -19,4 +19,3 @@ class JudgeSchema(BaseModel):
 
 class ETLAgentSchema(BaseModel):
     messages : Annotated[list,add] = Field ( ..., description="List of messages to be processed by the ETL Agent")
-    
